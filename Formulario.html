@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Obtener tu RFC</title>
+	<script type="text/javascript" src="Script.js"></script>
+</head>
+<body>
+	<form align="center" name="frmDatos">
+        <br><br>
+        Apellido Paterno: <br>
+        <input type="text" id="APat">
+        <br><br><br>
+        
+        Apellido Materno: <br>
+        <input type="text" id="AMat">
+        <br><br><br>
+        
+        Nombre: <br>
+        <input type="text" id="Nom">
+        <br><br><br> 
+        
+        Seleccione su Mes:
+        <br>
+        <select id="Mes">
+            <option selected>Seleccione su mes</option> 
+            <option value="Ene" id="M1">Enero</option>   
+            <option value="Feb" id="M2">Febrero</option>
+            <option value="Mar" id="M3">Marzo</option>  
+            <option value="Abr" id="M4">Abril</option>  
+            <option value="May" id="M5">Mayo</option>   
+            <option value="Jun" id="M6">Junio</option>  
+            <option value="Jul" id="M7">Julio</option>
+            <option value="Ago" id="M8">Agosto</option> 
+            <option value="Sep" id="M9">Septiembre</option> 
+            <option value="Oct" id="M10">Octubre</option> 
+            <option value="Nov" id="M11">Noviembre</option> 
+            <option value="Dic" id="M12">Diciembre</option> 
+        </select>
+        <br><br>
+
+        Seleccione su fecha de Nacimiento: <br>
+        <select id="Dia">
+            <option selected>Seleccione su dia</option>    
+            <option value="1" id="d1">1</option>    
+            <option value="2" id="d2">2</option>    
+            <option value="3" id="d3">3</option>    
+            <option value="4" id="d4">4</option>  
+            <option value="5" id="d5">5</option>    
+            <option value="6" id="d6">6</option>    
+            <option value="7" id="d7">7</option>    
+            <option value="8" id="d8">8</option>    
+            <option value="9" id="d9">9</option>    
+            <option value="10" id="d10">10</option>   
+            <option value="11" id="d11">11</option>   
+            <option value="12" id="d12">12</option>    
+            <option value="13" id="d13">13</option>    
+            <option value="14" id="d14">14</option>   
+            <option value="15" id="d15">15</option>   
+            <option value="16" id="d16">16</option> 
+            <option value="17" id="d17">17</option> 
+            <option value="18" id="d18">18</option> 
+            <option value="19" id="d19">19</option> 
+            <option value="20" id="d20">20</option> 
+            <option value="21" id="d21">21</option> 
+            <option value="22" id="d22">22</option> 
+            <option value="23" id="d23">23</option> 
+            <option value="24" id="d24">24</option> 
+            <option value="25" id="d25">25</option> 
+            <option value="26" id="d26">26</option> 
+            <option value="27" id="d27">27</option> 
+            <option value="28" id="d28">28</option> 
+            <option value="29" id="d29">29</option> 
+            <option value="30" id="d30">30</option>
+            <option value="31" id="d31">31</option>  
+        </select>
+        <br><br>
+
+        Escriba su a&ntilde;o: <br>
+        <input type="text" id="Ano">
+        <br><br><br>
+        <input type="button" value="Obtener RFC" onclick="Calcular()">
+        <br><br>
+        Su RFC es: <br>
+        <input type="text" placeholder="RFC" id="RFC" disabled>
+    </form>
+</body>
+</html>

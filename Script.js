@@ -23,7 +23,7 @@ function Calcular() {
         if(verM=="MARIA") {
             pnom=nom.charAt(6);
         } else {
-            pnom=nom.charAt(0)+nom.charAt(1);
+            pnom=nom.charAt(0);
             console.log("No tienes nombres como jose o maria y tus letras son :"+pnom);
         }
     }

@@ -1,0 +1,75 @@
+body{
+
+	background: #ffffff;
+	margin: 0px;
+
+}
+
+.header {
+
+  padding: 35px;
+  text-align: center;
+  background: #5D0019;
+  color: #ffffff;
+  font-size: 70px;
+  font-family: verdana;
+  
+  }
+
+  .Info{
+
+  	font-size: 22px;
+  	font-family: verdana 
+  }
+
+  .footer{
+  
+  border-radius: 20px;
+  padding: 40px;
+  text-align: right;
+  background: #5D0019;
+  color: white;
+  font-size: 15px;
+  font-family: verdana;
+  margin: 3px
+
+  }
+
+  .boton{
+
+  	border-radius: 15px;
+  	padding: 7px; 
+  	background-color: #5D0019; 
+  	color: #ffffff;
+  	font-family: verdana;
+  	font-size: 18px;
+
+  }
+
+  .campo{
+
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+
+  }
+
+   .campo1{
+
+  font-family: verdana;
+  font-size: 18px;
+  text-align: left;
+
+
+  
+  }
+
+  .cajon{
+  
+  width: 550px ;
+  height: 710px;
+  display: inline-block;
+  border: 2px solid #9b9c9e ;
+  border-radius: 20px;
+
+  }

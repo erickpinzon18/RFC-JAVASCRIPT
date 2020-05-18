@@ -1,32 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Obtener tu RFC</title>
-	<script type="text/javascript" src="Script.js"></script>
+	<title>OBTENER TU RFC</title>
+	<script type="text/javascript" src="Script.js"></script>  
+     <link rel="stylesheet" type="text/css" href="css\style.css">
+     <link rel="shortcut icon" href="css\log.png">
 </head>
 <body>
+
+    <div class="header"><img src="css\log.png" width="7%" height="7%"> RFC</div>
+
 	<form align="center" name="frmDatos">
+
         <br><br>
-        Apellido Paterno: <br>
-        <input type="text" id="APat">
-        <br><br><br>
-        
-        Apellido Materno: <br>
-        <input type="text" id="AMat">
-        <br><br><br>
-        
-        Nombre: <br>
-        <input type="text" id="Nom">
-        <br><br><br> 
-        
-        Inserte su fecha de nacimiento: <br>  
-        <input type="date" id="date">
+
+        <div class="cajon">
+
 
         <br><br><br>
-        <input type="button" value="Obtener RFC" onclick="Calcular()">
+
+        <div class="Info">APELLIDO PATERNO:</div> 
+
+        <br>
+
+        <input type="text" id="APat" class="campo">
+
+        <br><br><br>
+        
+        <div class="Info">APELLIDO MATERNO:</div>
+
+         <br>
+
+        <input type="text" id="AMat" class="campo">
+
+        <br><br><br>
+        
+        <div class="Info">NOMBRE:</div>
+        
+         <br>
+
+        <input type="text" id="Nom" class="campo">
+
+        <br><br><br> 
+        
+        <div class="Info">INSERTE SU FECHA DE NACIMIENTO:</div>
+         
+         <br>  
+
+        <input type="date" id="date" class="campo">
+
+        <br><br><br>
+
+        <input type="button" class="boton" value="OBTENER RFC" onclick="Calcular()">
+
         <br><br>
-        Su RFC es: <br>
-        <input type="text" placeholder="RFC" id="RFC" disabled>
+
+       <div class="Info">SU RFC ES:</div> 
+
+       <br>
+
+        <input type="text" class="campo1" placeholder="RFC" id="RFC" disabled>
+
+    </div></div>
+
     </form>
+
+
+    <br><br>
+
+    <div class="footer"> Erick Pinzon Huerta | Diego Alexis Algalan Murillo </div>
+
 </body>
 </html>
